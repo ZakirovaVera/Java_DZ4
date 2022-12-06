@@ -30,7 +30,7 @@ public class task2 {
         int item = lList.removeFirst();
         System.out.printf("DequeueLinkedList: ");
         System.out.println(lList);
-        System.out.printf("Первый элемент = %d", item);
+        System.out.printf("Первый элемент = %d удален", item);
         System.out.println();
     }
     public static void FirstLinkedList(LinkedList<Integer> lList)
